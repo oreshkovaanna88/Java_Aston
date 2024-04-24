@@ -37,7 +37,7 @@ public class Main
                 fillArrayLength(); break;
         }
     }
-
+// задание 1
     private static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
