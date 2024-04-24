@@ -112,11 +112,11 @@ public class Main
     }
     //  задание 9
     private static void  getTypeOfYear() {
-        System.out.print("Введите год: ");
+        System.out.print("Введсти год: ");
         Scanner in = new Scanner(System.in);
         int numberofyear = in.nextInt();
         if (numberofyear < 0) {
-            System.out.println("Неверное значение");}
+            System.out.println("Неправильное значение");}
         if (( numberofyear %400==0)||(numberofyear > 0 && numberofyear %4==0 && numberofyear %100!=0)) {
             System.out.println("true");}
         else {System.out.println("false");}
