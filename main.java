@@ -43,6 +43,7 @@ public class Main
         System.out.println("Banana");
         System.out.println("Apple");
     }
+    //  задание 2
     private static void checkSumSign() {
         int a = 0, b = 5, sum =0 ;
         sum = a+b;
@@ -50,6 +51,7 @@ public class Main
             System.out.println("Сумма положительная");}
         else {System.out.println("Сумма отрицательная");}
     }
+    //  задание 3
     private static void  printColor() {
         int value = 50;
         if (value <= 0) {
@@ -58,6 +60,7 @@ public class Main
             System.out.println("Желтый");}
         else {System.out.println("Зеленый");}
     }
+    //  задание 4
     private static void  compareNumbers() {
         int a = 50, b=20;
         if (a >= b) {
@@ -65,10 +68,10 @@ public class Main
         else {System.out.println("a < b");}
     }
     private static void  getSumNumbers() {
-        System.out.print("Введите первое число: ");
+        System.out.print("Ввести первое число: ");
         Scanner in = new Scanner(System.in);
         int first = in.nextInt();
-        System.out.print("Введите второе число: ");
+        System.out.print("Ввести второе число: ");
         Scanner in1 = new Scanner(System.in);
         int second = in1.nextInt();
         int sum = first +second;
@@ -76,33 +79,38 @@ public class Main
             System.out.println("true");}
         else {System.out.println("false");}
     }
+    //  задание 5
     private static void  giveTypeOfNumber() {
-        System.out.print("Введите число: ");
+        System.out.print("Ввести число: ");
         Scanner in = new Scanner(System.in);
         int number = in.nextInt();
         if (number >= 0) {
             System.out.println("Число положительное");}
         else {System.out.println("Число отрицательное");}
     }
+    //  задание 6
     private static void  giveNumberType() {
-        System.out.print("Введите число: ");
+        System.out.print("Ввести число: ");
         Scanner in = new Scanner(System.in);
         int number = in.nextInt();
         if (number < 0) {
             System.out.println("true");}
         else {System.out.println("false");}
     }
+    //  задание 7
     private static void  giveNumberOfLines() {
-        System.out.print("Введите строку: ");
+        System.out.print("Ввести строку: ");
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
-        System.out.print("Введите количество строк: ");
+    //  задание 8
+        System.out.print("Ввести количество строк: ");
         Scanner in = new Scanner(System.in);
         int number = in.nextInt();
         for (int i = 0; i < number; i++) {
             System.out.println(string);
         }
     }
+    //  задание 9
     private static void  getTypeOfYear() {
         System.out.print("Введите год: ");
         Scanner in = new Scanner(System.in);
@@ -113,6 +121,7 @@ public class Main
             System.out.println("true");}
         else {System.out.println("false");}
     }
+    //  задание 10
     private static void  ChangeElements() {
         int[] numbers = { 1 , 0, 0, 0, 1 , 1 , 0, 0, 0};
         for (int i = 0; i < 9; i++) {
@@ -123,6 +132,7 @@ public class Main
             System.out.print(numbers[i] + " ");
         }
     }
+    //  задание 11
     private static void  FillElements() {
         int[] numbers = new int[100];
         for (int i = 0; i <100; i++) {
@@ -130,6 +140,7 @@ public class Main
             System.out.print(numbers[i] + " ");
         }
     }
+    //  задание 12
     private static void  MultiplyElements() {
         int[] numbers = { 5 ,50, 78, 10, 23 , 4 , 66, 3, 6};
         for (int i = 0; i < 9; i++) {
@@ -139,8 +150,9 @@ public class Main
             System.out.print(numbers[i] + " ");
         }
     }
+    //  задание 13
     private static void  fillDiagonalElements() {
-        System.out.print("Введите размер массива: ");
+        System.out.print("Ввести размер массива: ");
         Scanner in = new Scanner(System.in);
         int number = in.nextInt();
         int [][] array = new int [number][number];
@@ -154,14 +166,15 @@ public class Main
             }
             System.out.println();
         }
-    }
+    
+    //  задание 14
     private static void  fillArrayLength() {
         System.out.print("Длина массива: ");
         int len, arr[];
         Scanner in = new Scanner(System.in);
         len = in.nextInt();
         arr = new int[len];
-        System.out.print("Введите значение массива: ");
+        System.out.print("Ввести значение массива: ");
         Scanner scanner = new Scanner(System.in);
         int initialValue = scanner.nextInt();
         for(int i = 0; i < len; i++){
