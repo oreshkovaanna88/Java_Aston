@@ -3,7 +3,7 @@ public class Main
 {
 
     public static void main(String[] args)
-    { System.out.print("Введите номер задания: ");
+    { System.out.print(Номер задания: ");
         Scanner in = new Scanner(System.in);
         int task = in.nextInt();
         switch (task) {
