@@ -1,8 +1,8 @@
 package HW_7;
 
-import HW_7.Figures.Circle;
-import HW_7.Figures.Rectangle;
-import HW_7.Figures.Triangle;
+import HW_7.Geometry.Circle;
+import HW_7.Geometry.Rectangle;
+import HW_7.Geometry.Triangle;
 
 public class HW_7 {
     public static void main(String[] args) {
