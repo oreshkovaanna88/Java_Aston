@@ -1,4 +1,4 @@
-package hw7.geometry;
+package Hw7.Geometry;
 
 public interface ComputationPerimeterAndArea {
     
