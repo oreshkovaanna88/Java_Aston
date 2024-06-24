@@ -117,7 +117,7 @@ public class MtsByTest {
     public void moveToFrame() {
         clickSelectButton();
         driver.findElement(By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/ul/li[1]")).click();
-        driver.findElement(By.xpath("//*[@id=\"connection-phone\"]")).sendKeys("297777777");
+        driver.findElement(By.xpath("//*[@id=\"connection-phone\"]")).sendKeys("292222222");
         driver.findElement(By.xpath("//*[@id=\"connection-sum\"]")).sendKeys("10");
         driver.findElement(By.xpath("//*[@id=\"pay-connection\"]/button")).click();
 
@@ -127,7 +127,7 @@ public class MtsByTest {
 
         WebElement headerPayment = driver.findElement(By.xpath("/html/body/app-root/div/div/app-payment-container/app-header/header/div/div"));
         Assert.assertTrue(headerPayment.getText().contains("10"));
-        Assert.assertTrue(headerPayment.getText().contains("297777777"));
+        Assert.assertTrue(headerPayment.getText().contains("292222222"));
 
         WebElement buttonPrice = driver.findElement(By.xpath("/html/body/app-root/div/div/app-payment-container/section/app-card-page/div/div[1]/button"));
         Assert.assertTrue(buttonPrice.getText().contains("10"));
