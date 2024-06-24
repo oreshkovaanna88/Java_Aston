@@ -32,13 +32,13 @@ public class AppTest {
     public void testPost() {
         given()
                 .contentType("application/json")
-                .body("{\"name\":\"Nikita\", \"lastName\":\"Kostyukov\"}")
+                .body("{\"name\":\"Ivan\", \"lastName\":\"Ivanov\"}")
                 .when()
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("json.name", equalTo("Nikita"))
-                .body("json.lastName", equalTo("Kostyukov"));
+                .body("json.name", equalTo("Ivan"))
+                .body("json.lastName", equalTo("Ivanov"));
     }
 
     @Test
